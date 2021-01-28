@@ -1,4 +1,4 @@
-# How to use i2c OLED display to display pi-hole stats
+# How to use i2c OLED display to display Pi-hole stats
 
 ## Final result
 
@@ -6,9 +6,9 @@
 
 ## prerequisites
 - A 128x64 I2C OLED display [This is the one i used](https://www.aliexpress.com/item/4001025304341.html?spm=a2g0o.search0302.0.0.4cf15445ldbinu&algo_pvid=be9211b6-6acd-45e7-ada1-71846c5b0063&algo_expid=be9211b6-6acd-45e7-ada1-71846c5b0063-0&btsid=0b0a555416118262836784031e3f49&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
-- Node JS with npm
+- Node JS (v10.19.0) with npm (v6.14.4)
 - Raspberry pi (with sudo access)
-- Pi-Hole set up and configured
+- Pi-hole set up and configured
 
 ## Steps
 
@@ -65,7 +65,7 @@
    You should now see this on the screen:  
    ![hello](https://cdn.discordapp.com/attachments/563268281046269954/626362596391518208/unknown.png)  
    Nice
-6. Lets now do something a little more interesting. We're now gonna display the Pi-Hole stats now.  
+6. Let's now do something a little more interesting. We're now gonna display the Pi-hole stats now.  
    Lets make a new file and start from scratch. <br>
    Add the code below (or look at the file included in the repo):
    ```js
@@ -135,5 +135,5 @@ Install it with:
    sudo forever list
    sudo forever stop [process id]
    ```
-9. Enjoy! You now have a tiny oled screen to view your Pihole stats with!  
+9. Enjoy! You now have a tiny oled screen to view your Pi-hole stats with!  
 Now go forth and conquer! with your tiny oled screen!
