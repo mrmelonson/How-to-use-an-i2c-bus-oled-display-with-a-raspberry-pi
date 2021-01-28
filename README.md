@@ -7,7 +7,7 @@
 ## prerequisites
 - A 128x64 I2C OLED display [This is the one i used](https://www.aliexpress.com/item/4001025304341.html?spm=a2g0o.search0302.0.0.4cf15445ldbinu&algo_pvid=be9211b6-6acd-45e7-ada1-71846c5b0063&algo_expid=be9211b6-6acd-45e7-ada1-71846c5b0063-0&btsid=0b0a555416118262836784031e3f49&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
 - Node JS (v10.19.0) with npm (v6.14.4)
-- Raspberry pi (with sudo access)
+- Raspberry pi (with sudo access and ubuntu, I am using v20.04.1)
 - Pi-hole set up and configured
 
 ## Steps
